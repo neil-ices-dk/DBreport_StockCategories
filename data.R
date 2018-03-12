@@ -13,3 +13,5 @@ rownames(cats) <- NULL
 
 # write out Stocks and categories
 write.taf(cats, "data/StockCategories.csv")
+
+
