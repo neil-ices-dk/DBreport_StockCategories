@@ -5,3 +5,9 @@
 .RData
 .Ruserdata
 *.Rproj
+
+# taf folders
+/data/
+/input/
+/model/
+/report/
