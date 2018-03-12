@@ -15,3 +15,4 @@ rownames(cats) <- NULL
 write.taf(cats, "data/StockCategories.csv")
 
 
+
