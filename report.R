@@ -11,3 +11,6 @@ cats <- read.taf("data/StockCategories.csv")
 
 # write out report table
 write.taf(cats, "report/StockCategories.csv")
+
+# render any markdown files we want here:
+rmarkdown::render("report.Rmd", output_dir = "report")
