@@ -1,2 +1,11 @@
-Value cannot be null.
-Parameter name: protectedData
+[14:34:33] Running data.R ...
+Done
+[14:34:37] Running report.R ...
+
+
+processing file: report.Rmd
+output file: report.knit.md
+
+
+Output created: report/report.html
+Done
