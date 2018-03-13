@@ -2,7 +2,11 @@
 title: ""
 author: ""
 date: ""
-output: html_document
+output:
+  html_document:
+    mathjax: null
+    theme: null
+    highlight: null
 ---
 
 ```{r setup, include=FALSE}
