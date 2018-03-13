@@ -1,6 +1,7 @@
 ## Prepare tables for report
 
 library(icesTAF)
+library(rmarkdown)
 
 mkdir("report")
 
@@ -13,11 +14,4 @@ cats <- read.taf("data/StockCategories.csv")
 write.taf(cats, "report/StockCategories.csv")
 
 # render any markdown files we want here:
-rmarkdown::render("report.Rmd", output_dir = "report")
-
-
-
-
-
-
-
+render("report.Rmd", output_dir = "report")
